@@ -12,11 +12,11 @@ namespace dealing_with_generalization.pullupfield.beforechange
     }
     class Truck: Vehicle
     {
-        public String Name { get; set; }
+        public string Name { get; set; }
     }
     class Car: Vehicle
     {
-        public String Name { get; set; }
+        public string Name { get; set; }
     }
     
 }

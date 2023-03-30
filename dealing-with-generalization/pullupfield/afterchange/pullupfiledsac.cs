@@ -8,12 +8,12 @@ namespace dealing_with_generalization.pullupfield.afterchange
 {
     class Vehicle
     {
-        public String Name { get; set; }
+        public string Name { get; set; }
     }
     class Truck : Vehicle
     {
     }
-    class pullupfields : Vehicle
+    class Car : Vehicle
     {
     }
 }
