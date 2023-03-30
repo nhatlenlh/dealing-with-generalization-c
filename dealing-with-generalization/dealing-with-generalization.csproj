@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="extractsubclass\afterchange\Extractsubclassac.cs" />
     <Compile Include="extractsubclass\beforechange\Extractsubclassbc.cs" />
+    <Compile Include="extractsuperclass\afterchange\extractsuperclassac.cs" />
+    <Compile Include="extractsuperclass\beforechange\extractsuperclassbc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="pullupconstructorbody\afterchange\Pullupconstructorbody.cs" />
     <Compile Include="pullupconstructorbody\beforechange\Pullupconstructorbc.cs" />
