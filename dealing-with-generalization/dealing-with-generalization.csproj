@@ -51,6 +51,8 @@
     <Compile Include="pullupconstructorbody\beforechange\Pullupconstructorbc.cs" />
     <Compile Include="pullupfield\afterchange\Pullupfiledsac.cs" />
     <Compile Include="pullupfield\beforechange\Pullupfieldsbc.cs" />
+    <Compile Include="pushdownfield\afterchange\Pushdownfield.cs" />
+    <Compile Include="pushdownfield\beforechange\pushdownfield.cs" />
     <Compile Include="pushdownmethod\afterchange\Employee.cs" />
     <Compile Include="pushdownmethod\afterchange\Pushdownmethodac.cs" />
     <Compile Include="pushdownmethod\beforechange\Employee.cs" />
