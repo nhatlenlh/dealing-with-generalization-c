@@ -8,19 +8,19 @@ namespace dealing_with_generalization.pushdownfield.afterchange
 {
     class Employee
     {
-        public String name;
+        public string name;
         public int ID;
         
     }
     class Engineer : Employee
         
     {
-        public String score;
-        public String getScore()
+        public string score;
+        public string getScore()
         {
             return score;
         }
-        public String getEngineerScore()
+        public string getEngineerScore()
         {
             return score + 5;
         }
