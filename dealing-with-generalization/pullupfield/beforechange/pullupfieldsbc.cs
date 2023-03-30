@@ -14,7 +14,7 @@ namespace dealing_with_generalization.pullupfield.beforechange
     {
         public String Name { get; set; }
     }
-    class pullupfieldsbc: Vehicle
+    class Car: Vehicle
     {
         public String Name { get; set; }
     }
