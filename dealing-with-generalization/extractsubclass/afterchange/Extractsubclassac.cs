@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace dealing_with_generalization.extractsuperclass.afterchange
 {
-    class Person
+    class Party
     {
         protected string name;
         protected int age;
@@ -17,7 +17,7 @@ namespace dealing_with_generalization.extractsuperclass.afterchange
         }
     }
 
-    class Employee : Person
+    class Employee : Party
     {
         private string jobTitle;
 
@@ -27,7 +27,7 @@ namespace dealing_with_generalization.extractsuperclass.afterchange
         }
     }
 
-    class Student : Person
+    class Student : Party
     {
         private string major;
 
