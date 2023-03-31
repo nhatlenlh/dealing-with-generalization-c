@@ -84,8 +84,11 @@
     <Compile Include="collapsehierarchy\afterchange\Employee.cs" />
     <Compile Include="collapsehierarchy\beforechange\Employee.cs" />
     <Compile Include="collapsehierarchy\beforechange\Engineer.cs" />
-    <Compile Include="extractsubclass\afterchange\Extractsubclassac.cs" />
-    <Compile Include="extractsubclass\beforechange\Extractsubclassbc.cs" />
+    <Compile Include="extractsubclass\afterchange\Employee.cs" />
+    <Compile Include="extractsubclass\afterchange\JobItem.cs" />
+    <Compile Include="extractsubclass\afterchange\LaborItem.cs" />
+    <Compile Include="extractsubclass\beforechange\Employee.cs" />
+    <Compile Include="extractsubclass\beforechange\JobItem.cs" />
     <Compile Include="extractsuperclass\afterchange\Employee.cs" />
     <Compile Include="extractsuperclass\afterchange\Department.cs" />
     <Compile Include="extractsuperclass\afterchange\Party.cs" />
