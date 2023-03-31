@@ -17,17 +17,13 @@ namespace dealing_with_generalization.pullupmethod.afterchange
             Console.WriteLine("Animal is eating");
         }
     }
-
     class Cat : Animals
-    {
-        
+    {    
         public void nameCat()
         {
             Console.WriteLine("This is Cat");
         }
-
     }
-
     class Dog : Animals
     {
         public void nameDog()

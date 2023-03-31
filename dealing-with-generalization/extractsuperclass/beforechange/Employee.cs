@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace dealing_with_generalization.extractsuperclass.beforechange
 {
-    internal class Employee
+    class Employee
     {
         public string Name { get; set; }
         public int Age { get; set; }

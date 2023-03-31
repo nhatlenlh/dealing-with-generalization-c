@@ -31,4 +31,11 @@ namespace dealing_with_generalization.collapsehierarchy.beforechange
             return true;
         }
     }
+    class Engineer : Employee
+    {
+        public bool IsActive()
+        {
+            return true;
+        }
+    }
 }

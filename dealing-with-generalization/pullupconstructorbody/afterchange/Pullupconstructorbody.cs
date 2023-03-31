@@ -10,7 +10,6 @@ namespace dealing_with_generalization.pullupconstructorbody.afterchange
     {
         public string ID { get; protected set; }
         public string Name { get; protected set; }
-
         protected Employee(string iD, string name)
         {
             ID = iD;
@@ -22,11 +21,9 @@ namespace dealing_with_generalization.pullupconstructorbody.afterchange
         public string Age;
         public Manager(string age, string id, string name):base(age, id)
         {
-            Age = age;
-           
+            Age = age;     
         }
     }
-
     class Engineer : Employee
     {
         public string Degree;

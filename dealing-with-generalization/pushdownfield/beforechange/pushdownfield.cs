@@ -11,10 +11,7 @@ namespace dealing_with_generalization.pushdownfield.beforechange
         public string name;
         public int ID;
         public string score;
-        public string getScore()
-        {
-            return score;
-        }
+        public string getScore(){ return score;}
         private void setScore(string score)
         {
             this.score = score;

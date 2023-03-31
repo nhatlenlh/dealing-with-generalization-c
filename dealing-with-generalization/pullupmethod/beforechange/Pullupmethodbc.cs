@@ -13,7 +13,6 @@ namespace dealing_with_generalization.pullupmethod.beforechange
             Console.WriteLine("These are 4 legs animals");
         }
     }
-
     class Cat: Animals
     {
 		public void eat()
@@ -24,9 +23,7 @@ namespace dealing_with_generalization.pullupmethod.beforechange
 		{
 			Console.WriteLine("This is Cat");
 		}
-
 	}
-
     class Dog: Animals
     {
 		public void eat()
